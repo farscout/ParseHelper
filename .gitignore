@@ -3,5 +3,19 @@
 /ParseHelper/ParseHelper*.nupkg
 
 #ignore binaries
-/ParseHelper/bin/**
-/ParseHelper/obj/**
+bin/
+obj/
+TestResults/
+
+*.dll
+*.exe
+Thumbs.db
+*.pdb
+*.dll.config
+
+# Include dlls if they’re in the NuGet packages directory
+!/packages/*/lib/*.dll
+# Include dlls if they're in the CommonReferences directory
+!*CommonReferences/*.dll
+
+
