@@ -1,0 +1,7 @@
+
+#ignore the generated nuget package for this project (will still include other dependency nuget packages)
+/ParseHelper/ParseHelper*.nupkg
+
+#ignore binaries
+/ParseHelper/bin/**
+/ParseHelper/obj/**
