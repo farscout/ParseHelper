@@ -1,6 +1,12 @@
 
 #ignore the generated nuget package for this project (will still include other dependency nuget packages)
 /ParseHelper/ParseHelper*.nupkg
+Desktop.ini
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
 
 #ignore binaries
 bin/
